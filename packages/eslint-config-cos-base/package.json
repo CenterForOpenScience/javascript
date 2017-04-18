@@ -1,0 +1,42 @@
+{
+  "name": "eslint-config-cos-base",
+  "version": "0.0.0",
+  "description": "Base ESLint configuration for the Center for Open Science",
+  "main": "index.js",
+  "engines": {
+    "node": ">= 6"
+  },
+  "author": "contact+eslint-config-cos-base@cos.io",
+  "contributors": [
+    "Barrett K. Harber <barrett@cos.io> (https://osf.io/srwz7/)"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CenterForOpenScience/javascript"
+  },
+  "bugs": {
+    "url": "https://github.com/CenterForOpenScience/javascript/issues"
+  },
+  "license": "Apache-2.0",
+  "keywords": [
+    "Center for Open Science",
+    "COS",
+    "eslint",
+    "eslintconfig",
+    "javascript",
+    "styleguide"
+  ],
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "eslint-config-airbnb-base": "^11.1.3",
+    "eslint-plugin-import": "^2.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0"
+  },
+  "peerDependencies": {
+    "eslint": ">= 3"
+  }
+}

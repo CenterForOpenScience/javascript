@@ -1,0 +1,43 @@
+{
+  "name": "eslint-config-cos-ember",
+  "version": "0.0.0",
+  "description": "Ember App ESLint configuration for the Center for Open Science",
+  "main": "index.js",
+  "engines": {
+    "node": ">= 6"
+  },
+  "author": "contact+eslint-config-cos-ember@cos.io",
+  "contributors": [
+    "Barrett K. Harber <barrett@cos.io> (https://osf.io/srwz7/)"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CenterForOpenScience/javascript"
+  },
+  "bugs": {
+    "url": "https://github.com/CenterForOpenScience/javascript/issues"
+  },
+  "license": "Apache-2.0",
+  "keywords": [
+    "Center for Open Science",
+    "COS",
+    "eslint",
+    "eslintconfig",
+    "javascript",
+    "styleguide",
+    "ember"
+  ],
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "eslint-config-cos-base": "^0.0.0",
+    "eslint-plugin-ember": "^3.1.2"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0"
+  },
+  "peerDependencies": {
+    "eslint": ">= 3"
+  }
+}
