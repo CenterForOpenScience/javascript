@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-cos-base",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Base ESLint configuration for the Center for Open Science",
   "main": "index.js",
   "engines": {
