@@ -27,7 +27,8 @@
     "styleguide"
   ],
   "scripts": {
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "test": "yarn run lint"
   },
   "dependencies": {
     "eslint-config-airbnb-base": "^11.1.3",

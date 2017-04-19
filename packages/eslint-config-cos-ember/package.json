@@ -28,10 +28,12 @@
     "ember"
   ],
   "scripts": {
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "pretest": "cd ../eslint-config-cos-base && yarn link && cd ../eslint-config-cos-ember && yarn link eslint-config-cos-base",
+    "test": "yarn run lint"
   },
   "dependencies": {
-    "eslint-config-cos-base": "^0.0.0",
+    "eslint-config-cos-base": "^0.0.2",
     "eslint-plugin-ember": "^3.1.2"
   },
   "devDependencies": {

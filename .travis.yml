@@ -1,0 +1,19 @@
+language: node_js
+node_js: lts/boron
+
+sudo: false
+dist: trusty
+
+cache: yarn
+
+matrix:
+  fast_finish: true
+
+env:
+- 'TEST_DIR=packages/eslint-config-cos-base'
+- 'TEST_DIR=packages/eslint-config-cos-ember'
+
+before_script:
+- cd $TEST_DIR
+- yarn --pure-lockfile
+- export PATH=$PATH:$TEST_DIR/node_modules/.bin
