@@ -28,7 +28,8 @@
     "ember"
   ],
   "scripts": {
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "test": "yarn run lint"
   },
   "dependencies": {
     "eslint-config-cos-base": "^0.0.0",
