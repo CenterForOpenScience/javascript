@@ -33,7 +33,7 @@
     "test": "yarn run lint"
   },
   "dependencies": {
-    "eslint-config-cos-base": "^0.0.2",
+    "eslint-config-cos-base": "^0.1.0",
     "eslint-plugin-ember": "^3.1.2"
   },
   "devDependencies": {

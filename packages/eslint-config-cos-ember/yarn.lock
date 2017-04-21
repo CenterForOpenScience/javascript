@@ -265,9 +265,9 @@ eslint-config-airbnb-base@^11.1.3:
   version "11.1.3"
   resolved "https://registry.yarnpkg.com/eslint-config-airbnb-base/-/eslint-config-airbnb-base-11.1.3.tgz#0e8db71514fa36b977fbcf977c01edcf863e0cf0"
 
-eslint-config-cos-base@^0.0.2:
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/eslint-config-cos-base/-/eslint-config-cos-base-0.0.2.tgz#278226b48ec2a255602bc3870c90159b0c3f27df"
+eslint-config-cos-base@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-cos-base/-/eslint-config-cos-base-0.1.0.tgz#dca5b1007146a6be037c62d60358ffa469e12e13"
   dependencies:
     eslint-config-airbnb-base "^11.1.3"
     eslint-plugin-import "^2.2.0"
