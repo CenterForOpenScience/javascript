@@ -31,6 +31,7 @@
     "test": "yarn run lint"
   },
   "dependencies": {
+    "babel-eslint": "^7.2.3",
     "eslint-config-airbnb-base": "^11.1.3",
     "eslint-plugin-import": "^2.2.0"
   },

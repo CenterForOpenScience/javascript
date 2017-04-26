@@ -2,6 +2,7 @@ module.exports = {
     extends: [
         'airbnb-base',
     ],
+    parser: 'babel-eslint',
     plugins: [],
     rules: {
         // We're a Python shop
