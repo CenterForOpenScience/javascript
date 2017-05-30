@@ -57,6 +57,7 @@ module.exports = {
                     'eslint-disable-line',
                     'eslint-disable-next-line',
                     'eslint-enable',
+                    'eslint-env',
                 ],
             },
         ],
