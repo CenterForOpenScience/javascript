@@ -3,7 +3,9 @@ module.exports = {
         'airbnb-base',
     ],
     parser: 'babel-eslint',
-    plugins: [],
+    plugins: [
+        'eslint-comments',
+    ],
     rules: {
         // We're a Python shop
         indent: ['error', 4],
@@ -40,6 +42,24 @@ module.exports = {
 
         // Warn for now
         'max-len': 'warn',
+
+        // ESLint comments
+        'eslint-comments/disable-enable-pair': 'error',
+        'eslint-comments/no-duplicate-disable': 'error',
+        'eslint-comments/no-unlimited-disable': 'error',
+        'eslint-comments/no-unused-disable': 'error',
+        'eslint-comments/no-unused-enable': 'error',
+        'eslint-comments/no-use': [
+            'error',
+            {
+                allow: [
+                    'eslint-disable',
+                    'eslint-disable-line',
+                    'eslint-disable-next-line',
+                    'eslint-enable',
+                ],
+            },
+        ],
     },
     settings: {
         'import/external-module-folders': [
