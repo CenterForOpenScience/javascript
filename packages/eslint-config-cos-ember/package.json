@@ -29,7 +29,6 @@
   ],
   "scripts": {
     "lint": "eslint .",
-    "pretest": "cd ../eslint-config-cos-base && yarn link && cd ../eslint-config-cos-ember && yarn link eslint-config-cos-base",
     "test": "yarn run lint"
   },
   "dependencies": {
