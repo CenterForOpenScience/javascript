@@ -1,10 +1,10 @@
-# eslint-config-cos-ember
+# @centerforopenscience/eslint-config-ember
 
-> Generic ESLint configuration for the Center for Open Science
+> Ember ESLint configuration for the Center for Open Science
 
-[![npm version](https://badge.fury.io/js/eslint-config-cos-ember.svg)](https://badge.fury.io/js/eslint-config-cos-ember)
+[![npm version](https://badge.fury.io/js/%40centerforopenscience%2Feslint-config-ember.svg)](https://badge.fury.io/js/%40centerforopenscience%2Feslint-config-ember)
 
-Based on [COS's Base Config](https://github.com/CenterForOpenScience/javascript/tree/develop/packages/eslint-config-cos-base) with [eslint-plugin-ember](https://github.com/netguru/eslint-plugin-ember)
+Based on [COS's Base Config](https://github.com/CenterForOpenScience/javascript/tree/develop/packages/eslint-config-base) with [eslint-plugin-ember](https://github.com/netguru/eslint-plugin-ember)
 
 Since route-able components aren't stable, this is unnecessary:
 * `alias-model-in-controller`

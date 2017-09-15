@@ -1,12 +1,12 @@
 {
-  "name": "eslint-config-cos-base",
+  "name": "@centerforopenscience/eslint-config-base",
   "version": "0.5.0",
   "description": "Base ESLint configuration for the Center for Open Science",
   "main": "index.js",
   "engines": {
     "node": ">= 6"
   },
-  "author": "contact+eslint-config-cos-base@cos.io",
+  "author": "contact+eslint-config-base@cos.io",
   "contributors": [
     "Barrett K. Harber <barrett@cos.io> (https://osf.io/srwz7/)"
   ],
