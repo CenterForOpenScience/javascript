@@ -1,6 +1,6 @@
 module.exports = {
     extends: [
-        'cos-base',
+        '@centerforopenscience/eslint-config-base',
         'plugin:ember/recommended',
     ],
     parserOptions: {

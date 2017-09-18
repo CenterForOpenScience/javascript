@@ -1,12 +1,12 @@
 {
-  "name": "eslint-config-cos-ember",
+  "name": "@centerforopenscience/eslint-config-ember",
   "version": "0.5.0",
   "description": "Ember App ESLint configuration for the Center for Open Science",
   "main": "index.js",
   "engines": {
     "node": ">= 6"
   },
-  "author": "contact+eslint-config-cos-ember@cos.io",
+  "author": "contact+eslint-config-ember@cos.io",
   "contributors": [
     "Barrett K. Harber <barrett@cos.io> (https://osf.io/srwz7/)"
   ],
@@ -32,7 +32,7 @@
     "test": "yarn run lint"
   },
   "dependencies": {
-    "eslint-config-cos-base": "^0.5.0",
+    "@centerforopenscience/eslint-config-base": "^1.0.0",
     "eslint-plugin-ember": "^3.4.1"
   },
   "devDependencies": {
