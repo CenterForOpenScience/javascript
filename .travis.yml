@@ -12,8 +12,8 @@ matrix:
   fast_finish: true
 
 env:
-- 'TEST_DIR=packages/eslint-config-cos-base'
-- 'TEST_DIR=packages/eslint-config-cos-ember'
+- 'TEST_DIR=packages/eslint-config-base'
+- 'TEST_DIR=packages/eslint-config-ember'
 
 before_script:
 - cd $TEST_DIR

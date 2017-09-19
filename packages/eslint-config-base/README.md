@@ -1,8 +1,8 @@
-# eslint-config-cos-base
+# @centerforopenscience/eslint-config-base
 
 > Generic ESLint configuration for the Center for Open Science
 
-[![npm version](https://badge.fury.io/js/eslint-config-cos-base.svg)](https://badge.fury.io/js/eslint-config-cos-base)
+[![npm version](https://badge.fury.io/js/%40centerforopenscience%2Feslint-config-base.svg)](https://badge.fury.io/js/%40centerforopenscience%2Feslint-config-base)
 
 Based on [AirBnB's JavaScript Guide](https://github.com/airbnb/javascript), with a few notable exceptions including:
 

@@ -4,5 +4,5 @@
 
 [![Build Status](https://travis-ci.org/CenterForOpenScience/javascript.svg?branch=master)](https://travis-ci.org/CenterForOpenScience/javascript)
 
-* For vanilla JavaScript projects, use eslint-config-cos-base
-* For Ember Applications, use eslint-config-cos-ember
+* For vanilla JavaScript projects, use @centerforopenscience/eslint-config-base
+* For Ember Applications, use @centerforopenscience/eslint-config-ember
