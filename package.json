@@ -30,7 +30,8 @@
   ],
   "scripts": {
     "lint": "eslint .",
-    "test": "yarn run lint"
+    "lint-ember": "eslint -c ember.js .",
+    "test": "yarn run lint && yarn run lint-ember"
   },
   "dependencies": {
     "babel-eslint": "^7.2.3",
