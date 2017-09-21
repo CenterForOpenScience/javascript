@@ -1,6 +1,6 @@
 module.exports = {
     extends: [
-        '@centerforopenscience',
+        './index.js',
         'plugin:ember/recommended',
     ],
     parserOptions: {
