@@ -20,6 +20,16 @@ Based on [AirBnB's JavaScript Guide](https://github.com/airbnb/javascript), with
 * Turn off some import rules and make others warnings
 * `max-len` is a warning, until we get the various repos cleaned up
 
+#### Usage
+
+Add the following to your ESLint config file:
+```javascript
+{
+    "extends": "@centerforopenscience"
+}
+```
+Note: ESLint automatically appends /eslint-config so it is not necessary to add it here.
+
 ## @centerforopenscience/eslint-config/ember
 
 > Ember ESLint configuration for the Center for Open Science
@@ -40,3 +50,13 @@ The following are set to warnings, but will become errors later:
 * `order-in-components`
 * `order-in-routes`
 * `order-in-controllers`
+
+#### Usage
+
+Add the following to your ESLint config file:
+```javascript
+{
+    "extends": "@centerforopenscience/eslint-config/ember"
+}
+```
+Note: You must include /eslint-config in the path for non-default configurations.
