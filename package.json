@@ -1,14 +1,15 @@
 {
-  "name": "@centerforopenscience/eslint-config-base",
+  "name": "@centerforopenscience/eslint-config",
   "version": "1.0.0",
-  "description": "Base ESLint configuration for the Center for Open Science",
+  "description": "ESLint configuration for the Center for Open Science",
   "main": "index.js",
   "engines": {
     "node": ">= 6"
   },
-  "author": "contact+eslint-config-base@cos.io",
+  "author": "contact+eslint-config@cos.io",
   "contributors": [
-    "Barrett K. Harber <barrett@cos.io> (https://osf.io/srwz7/)"
+    "Barrett K. Harber <barrett@cos.io> (https://osf.io/srwz7/)",
+    "James C. Davis <james@cos.io> (https://osf.io/b2hbm/)"
   ],
   "repository": {
     "type": "git",
