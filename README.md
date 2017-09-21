@@ -8,7 +8,7 @@
 * For vanilla JavaScript projects, use @centerforopenscience/eslint-config (or just @centerforopenscience, eslint will append /eslint-config automatically)
 * For Ember Applications, use @centerforopenscience/eslint-config/ember
 
-# @centerforopenscience/eslint-config
+## @centerforopenscience/eslint-config
 
 > Generic ESLint configuration for the Center for Open Science
 
@@ -20,7 +20,7 @@ Based on [AirBnB's JavaScript Guide](https://github.com/airbnb/javascript), with
 * Turn off some import rules and make others warnings
 * `max-len` is a warning, until we get the various repos cleaned up
 
-# @centerforopenscience/eslint-config/ember
+## @centerforopenscience/eslint-config/ember
 
 > Ember ESLint configuration for the Center for Open Science
 
