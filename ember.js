@@ -1,6 +1,6 @@
 module.exports = {
     extends: [
-        '@centerforopenscience/eslint-config-base',
+        '@centerforopenscience',
         'plugin:ember/recommended',
     ],
     parserOptions: {
