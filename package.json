@@ -1,6 +1,6 @@
 {
   "name": "@centerforopenscience/eslint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ESLint configuration for the Center for Open Science",
   "main": "index.js",
   "engines": {

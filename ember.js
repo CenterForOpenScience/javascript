@@ -23,7 +23,12 @@ module.exports = {
         'ember/local-modules': 'warn',
         'ember/no-observers': 'warn',
         'ember/no-function-prototype-extensions': 'warn',
-        'ember/named-functions-in-promises': 'warn',
+        'ember/named-functions-in-promises': [
+            'warn',
+            {
+                allowSimpleArrowFunction: true,
+            },
+        ],
         'ember/order-in-components': 'warn',
         'ember/order-in-routes': 'warn',
         'ember/order-in-controllers': 'warn',
