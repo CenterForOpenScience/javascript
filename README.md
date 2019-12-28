@@ -43,7 +43,6 @@ This will produce too many errors or warnings to count, so for now, it's turned 
 * `use-ember-get-and-set`
 
 The following are set to warnings, but will become errors later:
-* `local-modules`
 * `no-observers`
 * `no-function-prototype-extensions`
 * `named-functions-in-promises`
