@@ -20,7 +20,7 @@ module.exports = {
         'ember/use-ember-get-and-set': 'off',
 
         // Warnings... for now
-        'ember/local-modules': 'warn',
+        'ember/new-module-imports': 'warn',
         'ember/no-observers': 'warn',
         'ember/no-function-prototype-extensions': 'warn',
         'ember/named-functions-in-promises': [
